@@ -1,8 +1,8 @@
 {
   "name": "dorosak-plus-server",
-  "main": "server-dorosak.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server-dorosak.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

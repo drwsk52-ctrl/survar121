@@ -26,7 +26,7 @@ const path = require("path");
 const fs = require("fs");
 
 // ---------- إعدادات ----------
-const PORT = Number(process.env.PORT || 3000);
+const PORT = Number(process.env.PORT || 8080);
 const JWT_SECRET = process.env.JWT_SECRET || crypto.randomBytes(32).toString("hex");
 const FIREBASE_DB_URL = (process.env.FIREBASE_DB_URL || "https://dr-gamal-374e2-default-rtdb.firebaseio.com").replace(/\/$/, "");
 const ADMIN_EMAILS = String(process.env.ADMIN_EMAILS || "drwsk40@gmail.com")
